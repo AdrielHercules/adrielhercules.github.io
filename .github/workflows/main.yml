@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: 🛠️ Build Angular App
-        run: npx ng build --configuration production --base-href "/adrielhercules.github.io/"
+        run: npx ng build --configuration production --base-href "/"
 
       - name: 🧩 Add .nojekyll file
         run: echo "" > dist/portfolio/browser/.nojekyll
