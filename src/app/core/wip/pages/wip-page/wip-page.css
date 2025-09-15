@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100dvh;
+
+    background-color: rgb(112, 194, 101);
+    background: linear-gradient(45deg, rgb(199, 231, 83), rgb(159, 110, 165), rgb(4, 49, 250));
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(50%);
+
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
