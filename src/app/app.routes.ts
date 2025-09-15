@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { WipPage } from './core/wip/pages/wip-page/wip-page';
+import { ProfilePage } from './features/profile/pages/profile-page/profile-page';
 
 export const routes: Routes = [
   {
     path: '',
-    component: WipPage,
-    title: 'Work in progress',
+    component: ProfilePage,
+    title: 'Adriel Hércules de Solás',
   },
 ];
