@@ -5,6 +5,22 @@
     src: url("/assets/Inter.ttf") format("truetype");
 }
 
+:root {
+    /* Base */
+    --color-background: #0B0C10;
+    --color-secondary: #1F2833;
+    --color-card: #C5C6C7;
+
+    /* Identidad */
+    --color-primary: #66FCF1;
+    --color-accent: #45A29E;
+
+    /* Texto */
+    --text-color: #FFFFFF;
+
+    color: var(--text-color);
+}
+
 .body {
     font-family: "Inter";
     margin: 0px;
