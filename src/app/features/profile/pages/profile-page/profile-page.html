@@ -6,12 +6,14 @@
   <section class="profile">
     <div class="profile-info">
       <div class="profile-picture"></div>
-      <span>Name LastName</span>
-      <span>Software Developer</span>
+      <div class="profile-name">
+        <span>Name LastName</span>
+        <span>Software Developer</span>
+      </div>
       <div class="profile-links">
-        <button>LinkedIn</button>
-        <button>Github</button>
-        <button>Email</button>
+        <button class="app-button">LinkedIn</button>
+        <button class="app-button">Github</button>
+        <button class="app-button">Email</button>
       </div>
     </div>
     <div class="about-me">
@@ -29,7 +31,5 @@
     </div>
   </section>
 
-  <section class="projects">
-    <app-projects-showcase></app-projects-showcase>
-  </section>
+  <app-projects-showcase style="width: 100%"></app-projects-showcase>
 </div>
