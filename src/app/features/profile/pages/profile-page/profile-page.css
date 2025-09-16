@@ -6,7 +6,7 @@
     right: 0%;
     left: 0%;
 
-    background-color: red;
+    background-color: var(--color-background);
 }
 
 .content {
@@ -16,7 +16,6 @@
 
     justify-content: top;
     align-items: center;
-    background-color: var(--color-background);
     padding: 10px;
 }
 
