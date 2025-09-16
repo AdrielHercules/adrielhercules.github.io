@@ -1,1 +1,18 @@
-.projects {}
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.project-card {
+    background-color: var(--color-secondary);
+    place-items: center;
+    padding: 10px;
+    min-height: 200px;
+}
